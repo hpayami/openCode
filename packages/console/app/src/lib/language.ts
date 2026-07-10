@@ -115,6 +115,7 @@ const DOCS_SEGMENT = new Set([
   "uk",
   "zh-cn",
   "zh-tw",
+  "fa",
 ])
 
 const DOCS_LOCALE = {

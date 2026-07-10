@@ -66,6 +66,11 @@ describe("translate app", () => {
       "packages/desktop/src/renderer/i18n/fr.ts",
     ])
     expect(targetFiles("tr")).toEqual(["packages/app/src/i18n/tr.ts", "packages/ui/src/i18n/tr.ts"])
+    expect(targetFiles("fa")).toEqual([
+      "packages/app/src/i18n/fa.ts",
+      "packages/ui/src/i18n/fa.ts",
+      "packages/desktop/src/renderer/i18n/fa.ts",
+    ])
   })
 
   test("maps product locale codes to their glossaries", () => {

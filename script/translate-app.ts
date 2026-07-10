@@ -11,6 +11,7 @@ const locales = [
   "da",
   "de",
   "es",
+  "fa",
   "fr",
   "ja",
   "ko",
@@ -41,6 +42,7 @@ const languages = {
   uk: "Ukrainian",
   th: "Thai",
   tr: "Turkish",
+  fa: "Persian",
   zh: "Simplified Chinese",
   zht: "Traditional Chinese",
 } as const satisfies Record<Locale, string>
