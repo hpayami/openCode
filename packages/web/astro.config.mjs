@@ -124,6 +124,11 @@ export default defineConfig({
           lang: "zh-TW",
           dir: "ltr",
         },
+        fa: {
+          label: "فارسی",
+          lang: "fa-IR",
+          dir: "rtl",
+        },
       },
       favicon: "/favicon-v3.svg",
       head: [
@@ -199,6 +204,7 @@ export default defineConfig({
             "tr-TR": "Windows",
             "zh-CN": "Windows",
             "zh-TW": "Windows",
+            "fa-IR": "ویندوز",
           },
           link: "windows-wsl",
         },
@@ -223,6 +229,7 @@ export default defineConfig({
             "tr-TR": "Kullanım",
             "zh-CN": "使用",
             "zh-TW": "使用",
+            "fa-IR": "استفاده",
           },
           items: ["go", "tui", "cli", "web", "ide", "zen", "share", "github", "gitlab"],
         },
@@ -248,6 +255,7 @@ export default defineConfig({
             "tr-TR": "Yapılandırma",
             "zh-CN": "配置",
             "zh-TW": "設定",
+            "fa-IR": "تنظیمات",
           },
           items: [
             "tools",
@@ -290,6 +298,7 @@ export default defineConfig({
             "tr-TR": "Geliştirme",
             "zh-CN": "开发",
             "zh-TW": "開發",
+            "fa-IR": "توسعه",
           },
           items: ["sdk", "server", "plugins", "ecosystem"],
         },
