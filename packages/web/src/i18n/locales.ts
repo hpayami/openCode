@@ -17,6 +17,7 @@ export const docsLocale = [
   "uk",
   "zh-cn",
   "zh-tw",
+  "fa",
 ] as const
 
 export type DocsLocale = (typeof docsLocale)[number]
@@ -52,6 +53,7 @@ export const localeAlias = {
   "zh-cn": "zh-cn",
   zht: "zh-tw",
   "zh-tw": "zh-tw",
+  fa: "fa",
 } as const satisfies Record<string, Locale>
 
 const starts = [
@@ -69,6 +71,7 @@ const starts = [
   ["ar", "ar"],
   ["th", "th"],
   ["tr", "tr"],
+  ["fa", "fa"],
   ["en", "root"],
 ] as const
 

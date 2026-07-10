@@ -7,6 +7,7 @@ const appLocales = [
   "da",
   "de",
   "es",
+  "fa",
   "fr",
   "ja",
   "ko",

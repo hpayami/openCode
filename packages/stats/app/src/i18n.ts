@@ -16,6 +16,7 @@ import { dict as tr } from "./i18n/tr"
 import { dict as uk } from "./i18n/uk"
 import { dict as zh } from "./i18n/zh"
 import { dict as zht } from "./i18n/zht"
+import { dict as fa } from "./i18n/fa"
 
 const en = {
   "app.title": "AI Model Usage Rankings | OpenCode Data",
@@ -274,6 +275,7 @@ const dictionaries = {
   uk,
   zh,
   zht,
+  fa,
 } satisfies Record<Locale, Dict>
 
 export function dict(locale: Locale) {

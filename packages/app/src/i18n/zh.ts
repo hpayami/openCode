@@ -505,6 +505,7 @@ export const dict = {
   "language.uk": "Українська",
   "language.th": "ไทย",
   "language.tr": "Türkçe",
+  "language.fa": "فارسی",
 
   "toast.language.title": "语言",
   "toast.language.description": "已切换到{{language}}",
@@ -1012,6 +1013,9 @@ export const dict = {
   "session.header.open.finder": "访达",
   "session.header.open.fileExplorer": "文件资源管理器",
   "session.header.open.fileManager": "文件管理器",
+  "session.header.reveal.finder": "Reveal in Finder",
+  "session.header.reveal.fileExplorer": "Reveal in File Explorer",
+  "session.header.reveal.containingFolder": "Open containing folder",
   "session.header.open.app.vscode": "VS Code",
   "session.header.open.app.cursor": "Cursor",
   "session.header.open.app.zed": "Zed",
